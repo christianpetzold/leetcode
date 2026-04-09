@@ -1,4 +1,4 @@
-package dev.christianpetzold.dailies.d_2069;
+package dev.christianpetzold.leetcode.problems.p_2069;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;

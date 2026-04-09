@@ -1,5 +1,8 @@
-package dev.christianpetzold.dailies.d_2069;
+package dev.christianpetzold.leetcode.problems.p_2069;
 
+/**
+ * <a href="https://leetcode.com/problems/walking-robot-simulation-ii">LeetCode Link</a>
+ */
 public class Robot {
   int width;
   int height;
