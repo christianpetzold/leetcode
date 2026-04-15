@@ -26,7 +26,7 @@ class SolutionTest {
   @ParameterizedTest
   @MethodSource("provideGroupAnagramsTestData")
   void groupAnagrams_1(String[] input, List<List<String>> expected) {
-   var actual = solution.groupAnagrams(input);
+   var actual = solution.groupAnagramsByOccurence(input);
    var expectedSorted = expected.stream().map(li -> li.stream().sorted().toList()).toList();
    var actualSorted = actual.stream().map(li -> li.stream().sorted().toList()).toList();
    assertEquals(expected.size(), actual.size());
